@@ -13,7 +13,7 @@ class Config(object):
     # some people upload their session files on GitHub or other third party hosting
     # websites, this might prevent the un-authorized use of the
     # confidential session files
-    HU_STRING_SESSION = os.environ.get("HU_STRING_SESSION", None)
+    HU_STRING_SESSION = os.environ.get("HU_STRING_SESSION", "1AZWarzgBu4qwl2tPqlEsG6qbnRRX2sYzFmCudIsQN8EjupMlaoUiSWLmoMRAKjKSEBKlNVmWVKsJxNd67gStiGjcxhqvGtDpgwoIOHMrB3szyK9oIoWGJhtDCxUWg7VAlg5T9FRtVMDM7MQZeiO1zSKI62WO_P6jVEy_6fr9cRFk8JLg61j-AbQAysIcElLBfBcCihZe4AXZp18OsT7jJxlX1xoaAzMoJicTs2CQK8XXsipD7DaJPybKqS_kJJBRxJ-XQ67A9u494UE30UvvggZHYLm0Ey-aTwc8vpTrPQvKBXJazy67xyiRWZ1_y7VrUtczXPW1-w4xEa9Sd2Mq2egkSQ3FbRw=")
     # Get your own APPID from https://api.openweathermap.org/data/2.5/weather
     OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
     # Get your own ACCESS_KEY from http://api.screenshotlayer.com/api/capture
